@@ -12,4 +12,4 @@ router.patch('/users/:user_id', updateUsers);
 router.delete('/users/:user_id', deleteUsers);
 
 
-module.exports = router;
+module.exports = router

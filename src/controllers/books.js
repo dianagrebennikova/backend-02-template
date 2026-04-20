@@ -1,4 +1,4 @@
-const Book = require('../models/book')
+const Book = require('../models/book');
 
 const getBooks = (request, response) => {
   return Book.find({}).then(

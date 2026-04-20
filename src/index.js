@@ -27,5 +27,5 @@ app.use(bookRouter);
 
 
 app.listen(PORT, () => {
-  console.log(`Сервер запущен по адресу ${API_URL}:${PORT}`);
+  console.log(`Сервер запущен по адресу ${API_URL}:${PORT}`)
 });
